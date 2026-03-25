@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <!-- ══ SEO PRIMAIRE ══ -->
+  <title>Rue Professeur Koné Tiemoman — Commerces, Restaurants & Services à Abobo, Abidjan</title>
+  <meta name="description" content="Découvrez la Rue Professeur Koné Tiemoman à Abobo, Abidjan : restaurants, maquis, boutiques, salons de coiffure, artisans et services de proximité. L'annuaire digital du quartier."/>
+  <meta name="keywords" content="rue Koné Tiemoman, Abobo, Abidjan, Côte d'Ivoire, commerces Abobo, restaurants Abobo, maquis Abobo, boutiques Abobo, services Abobo, artisans Abidjan, coiffure Abobo, formation professionnelle Abobo, épicerie Abobo, commerce Abidjan, quartier Abobo, petits commerces Abidjan, annuaire Abobo, rue commerçante Abidjan"/>
+  <meta name="author" content="Rue Professeur Koné Tiemoman"/>
+  <meta name="robots" content="index, follow"/>
+  <meta name="language" content="French"/>
+  <meta name="geo.region" content="CI-AB"/>
+  <meta name="geo.placename" content="Abobo, Abidjan, Côte d'Ivoire"/>
+  <meta name="geo.position" content="5.4195;-4.0167"/>
+  <meta name="ICBM" content="5.4195, -4.0167"/>
+  <link rel="canonical" href="https://rue-kone-tiemoman.vercel.app/"/>
+
+  <!-- ══ OPEN GRAPH (Facebook, WhatsApp, LinkedIn) ══ -->
+  <meta property="og:type"        content="website"/>
+  <meta property="og:url"         content="https://rue-kone-tiemoman.vercel.app/"/>
+  <meta property="og:title"       content="Rue Koné Tiemoman — Commerces & Services à Abobo, Abidjan"/>
+  <meta property="og:description" content="Restaurants, maquis, boutiques, artisans, services — tout ce que la Rue Koné Tiemoman a à offrir, enfin visible en ligne."/>
+  <meta property="og:locale"      content="fr_CI"/>
+  <meta property="og:site_name"   content="Rue Koné Tiemoman"/>
+
+  <!-- ══ TWITTER CARD ══ -->
+  <meta name="twitter:card"        content="summary_large_image"/>
+  <meta name="twitter:title"       content="Rue Koné Tiemoman — Commerces & Services à Abobo"/>
+  <meta name="twitter:description" content="Découvrez les commerces, restaurants et services de la Rue Koné Tiemoman à Abobo, Abidjan."/>
+
+  <!-- ══ DONNÉES STRUCTURÉES JSON-LD (Google rich results) ══ -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Rue Professeur Koné Tiemoman",
+    "description": "Annuaire digital des commerces, restaurants, boutiques et services de la Rue Professeur Koné Tiemoman à Abobo, Abidjan, Côte d'Ivoire.",
+    "url": "https://rue-kone-tiemoman.vercel.app/",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Rue Professeur Koné Tiemoman",
+      "addressLocality": "Abobo",
+      "addressRegion": "Abidjan",
+      "addressCountry": "CI"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 5.4195,
+      "longitude": -4.0167
+    },
+    "areaServed": {
+      "@type": "City",
+      "name": "Abobo, Abidjan"
+    },
+    "sameAs": [
+      "https://www.facebook.com/RueKoneTiemoman",
+      "https://www.instagram.com/rue_kone_tiemoman",
+      "https://www.tiktok.com/@KoneTiemomanBiz"
+    ]
+  }
+  </script>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Plus+Jakarta+Sans:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary:   '#EA580C',
+            plight:    '#FB923C',
+            pdark:     '#C2410C',
+            ggreen:    '#166534',
+            gmid:      '#15803D',
+            glight:    '#16A34A',
+          },
+          fontFamily: {
+            display: ['"Playfair Display"', 'serif'],
+            heading:  ['"Plus Jakarta Sans"', 'sans-serif'],
+            body:     ['"DM Sans"', 'sans-serif'],
+          },
+        }
+      }
+    }
+  </script>
+  <style>
+    html { scroll-behavior: smooth; }
+    body { font-family: 'DM Sans', sans-serif; }
+
+    .pattern-bg {
+      background-image: url("data:image/svg+xml,%3Csvg width='56' height='56' viewBox='0 0 56 56' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M28 0 L56 28 L28 56 L0 28Z' fill='none' stroke='rgba(234,88,12,0.07)' stroke-width='1'/%3E%3C/svg%3E");
+      background-size: 56px 56px;
+    }
+    .clip-hero { clip-path: polygon(0 0, 100% 0, 100% 92%, 0 100%); }
+
+    .card-hover { transition: transform .25s, box-shadow .25s, border-color .25s; }
+    .card-hover:hover { transform: translateY(-6px); box-shadow: 0 20px 40px rgba(0,0,0,.1); }
+
+    .nav-link {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-size: .78rem; font-weight: 700;
+      letter-spacing: .06em; text-transform: uppercase;
+      color: #374151; transition: color .2s;
+    }
+    .nav-link:hover { color: #EA580C; }
+
+    .eyebrow {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-size: .65rem; font-weight: 800;
+      letter-spacing: .15em; text-transform: uppercase;
+      color: #EA580C;
+    }
+
+    .timeline-num {
+      font-family: 'Playfair Display', serif;
+      font-size: 3.5rem; font-weight: 900;
+      color: rgba(234,88,12,.15); line-height: 1;
+    }
+
+    .pill-g {
+      background: rgba(22,101,52,.12);
+      border: 1px solid rgba(22,163,74,.3);
+      color: #16A34A;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-size: .62rem; font-weight: 800;
+      letter-spacing: .08em; text-transform: uppercase;
+      padding: .25rem .75rem; border-radius: 99px;
+    }
+    .pill-o {
+      background: rgba(234,88,12,.1);
+      border: 1px solid rgba(234,88,12,.3);
+      color: #C2410C;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-size: .62rem; font-weight: 800;
+      letter-spacing: .08em; text-transform: uppercase;
+      padding: .25rem .75rem; border-radius: 99px;
+    }
+
+    .hashtag {
+      font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 800;
+      font-size: .8rem; letter-spacing: .04em;
+      padding: .65rem 1.4rem; border: 2px solid;
+      transition: all .2s;
+    }
+    .hashtag:hover { background: #EA580C; color: #fff; border-color: #EA580C; transform: scale(1.04); }
+
+    @keyframes spin-badge { to { transform: rotate(360deg); } }
+    .spin-slow { animation: spin-badge 22s linear infinite; }
+
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(24px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    .anim-1 { animation: fadeUp .8s ease both; }
+    .anim-2 { animation: fadeUp .9s .15s ease both; }
+    .anim-3 { animation: fadeUp 1s .3s ease both; }
+  </style>
+</head>
+<body class="bg-white text-gray-800 overflow-x-hidden">
+
+<!-- ══════════ NAV ══════════ -->
+<nav class="fixed top-0 inset-x-0 z-50 bg-white/95 backdrop-blur-md border-b border-orange-100 shadow-sm">
+  <div class="max-w-7xl mx-auto px-6 lg:px-14 flex items-center justify-between h-16">
+    <a href="#hero" class="font-display font-black text-xl leading-none">
+      <span class="text-primary">Rue</span>
+      <span class="text-ggreen"> Koné</span>
+      <span class="text-gray-900"> Tiemoman</span>
+    </a>
+
+    <!-- Desktop links -->
+    <ul class="hidden md:flex items-center gap-7">
+      <li><a href="#apropos"   class="nav-link">À propos</a></li>
+      <li><a href="#commerces" class="nav-link">Commerces</a></li>
+      <li><a href="#strategie" class="nav-link">Stratégie</a></li>
+      <li><a href="#reseaux"   class="nav-link">Réseaux</a></li>
+      <li>
+        <a href="#contact"
+           class="inline-block font-heading font-extrabold text-xs tracking-widest uppercase bg-primary text-white px-5 py-2.5 hover:bg-pdark transition-colors">
+          Contact
+        </a>
+      </li>
+    </ul>
+
+    <!-- Burger button (mobile only) -->
+    <button id="burger-btn" class="md:hidden flex flex-col justify-center items-center w-10 h-10 gap-1.5 focus:outline-none" aria-label="Menu">
+      <span id="b1" class="block w-6 h-0.5 bg-gray-800 transition-all duration-300 origin-center"></span>
+      <span id="b2" class="block w-6 h-0.5 bg-gray-800 transition-all duration-300"></span>
+      <span id="b3" class="block w-6 h-0.5 bg-gray-800 transition-all duration-300 origin-center"></span>
+    </button>
+  </div>
+
+  <!-- Mobile menu panel -->
+  <div id="mobile-menu"
+       class="md:hidden overflow-hidden transition-all duration-300 ease-in-out"
+       style="max-height:0;">
+    <div class="bg-white border-t border-orange-100 px-6 py-6 flex flex-col gap-1">
+      <a href="#apropos"   class="mobile-link">À propos</a>
+      <a href="#commerces" class="mobile-link">Commerces</a>
+      <a href="#strategie" class="mobile-link">Stratégie</a>
+      <a href="#reseaux"   class="mobile-link">Réseaux</a>
+      <a href="#contact"
+         class="mt-3 text-center font-heading font-extrabold text-sm tracking-wider uppercase bg-primary text-white px-5 py-3 hover:bg-pdark transition-colors mobile-link">
+        Contact
+      </a>
+    </div>
+  </div>
+</nav>
+
+<style>
+  .mobile-link {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: .9rem; font-weight: 700;
+    letter-spacing: .05em; text-transform: uppercase;
+    color: #374151;
+    padding: .75rem 0;
+    border-bottom: 1px solid #f3f4f6;
+    text-decoration: none;
+    transition: color .2s;
+  }
+  .mobile-link:hover { color: #EA580C; }
+  .mobile-link:last-child { border-bottom: none; }
+</style>
+
+<script>
+  const btn    = document.getElementById('burger-btn');
+  const menu   = document.getElementById('mobile-menu');
+  const b1     = document.getElementById('b1');
+  const b2     = document.getElementById('b2');
+  const b3     = document.getElementById('b3');
+  let open = false;
+
+  function toggleMenu() {
+    open = !open;
+    menu.style.maxHeight = open ? menu.scrollHeight + 'px' : '0';
+
+    // Animate to X
+    if (open) {
+      b1.style.transform = 'translateY(8px) rotate(45deg)';
+      b2.style.opacity   = '0';
+      b3.style.transform = 'translateY(-8px) rotate(-45deg)';
+    } else {
+      b1.style.transform = '';
+      b2.style.opacity   = '1';
+      b3.style.transform = '';
+    }
+  }
+
+  btn.addEventListener('click', toggleMenu);
+
+  // Close menu on link click
+  document.querySelectorAll('.mobile-link').forEach(link => {
+    link.addEventListener('click', () => {
+      if (open) toggleMenu();
+    });
+  });
+</script>
+
+<!-- ══════════ HERO ══════════ -->
+<section id="hero" class="relative min-h-screen flex items-center pattern-bg clip-hero bg-white pt-16 overflow-hidden">
+  <!-- décor blobs -->
+  <div class="absolute -top-40 -right-40 w-[560px] h-[560px] rounded-full bg-primary/10 blur-3xl pointer-events-none"></div>
+  <div class="absolute bottom-10 left-1/4 w-[380px] h-[380px] rounded-full bg-ggreen/8 blur-3xl pointer-events-none"></div>
+  <!-- bande verte gauche -->
+  <div class="absolute left-0 inset-y-0 w-1.5 bg-ggreen"></div>
+
+  <div class="relative z-10 max-w-7xl mx-auto px-8 lg:px-16 w-full grid lg:grid-cols-2 gap-16 items-center py-24">
+
+    <!-- Texte -->
+    <div>
+      <span class="eyebrow inline-flex items-center gap-2 bg-primary/10 px-3 py-1.5 rounded-sm mb-8 anim-1">
+        📍 Abobo — Abidjan, Côte d'Ivoire
+      </span>
+      <h1 class="font-display font-black leading-[1.0] anim-2"
+          style="font-size:clamp(2.8rem,6.5vw,5.8rem)">
+        La Rue<br>
+        <span class="text-primary">Koné Tiemoman</span><br>
+        <span class="text-ggreen">vit &amp; commerce.</span>
+      </h1>
+      <p class="mt-6 text-gray-500 text-lg font-light leading-relaxed max-w-md anim-3">
+        Restaurants, boutiques, services, artisans — l'âme économique d'Abobo, enfin visible sur le digital.
+      </p>
+      <div class="mt-10 flex flex-wrap gap-4 anim-3">
+        <a href="#commerces"
+           class="font-heading font-extrabold text-sm tracking-wider uppercase bg-primary text-white px-8 py-4 hover:bg-pdark transition-all hover:-translate-y-1 shadow-lg shadow-primary/30">
+          Découvrir les commerces
+        </a>
+        <a href="#strategie"
+           class="font-heading font-extrabold text-sm tracking-wider uppercase border-2 border-ggreen text-ggreen px-8 py-4 hover:bg-ggreen hover:text-white transition-all hover:-translate-y-1">
+          Notre stratégie
+        </a>
+      </div>
+    </div>
+
+    <!-- Badge rotatif -->
+    <div class="hidden lg:flex items-center justify-center relative h-80">
+      <div class="absolute w-72 h-72 rounded-full spin-slow"
+           style="background:conic-gradient(#EA580C,#FB923C,#166534,#16A34A,#EA580C);padding:3px;">
+        <div class="w-full h-full rounded-full bg-white"></div>
+      </div>
+      <div class="absolute flex flex-col items-center justify-center text-center z-10">
+        <span class="font-display font-black text-6xl text-primary leading-none">100+</span>
+        <span class="font-heading text-xs font-extrabold tracking-widest uppercase text-ggreen mt-1">Commerces actifs</span>
+        <span class="text-4xl mt-3">🏪</span>
+      </div>
+      <span class="absolute top-4 right-0 bg-primary text-white text-xs font-heading font-extrabold px-3 py-1 tracking-wider uppercase rotate-3 shadow-md">Abobo</span>
+      <span class="absolute bottom-8 left-0 bg-ggreen text-white text-xs font-heading font-extrabold px-3 py-1 tracking-wider uppercase -rotate-2 shadow-md">Digital</span>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ STATS ══════════ -->
+<section class="bg-ggreen">
+  <div class="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-4 divide-x divide-gmid/40">
+    <div class="text-center py-12 px-6">
+      <p class="font-display font-black text-5xl text-plight leading-none">100+</p>
+      <p class="font-heading font-extrabold text-xs tracking-widest uppercase text-white/65 mt-2">Commerces &amp; services</p>
+    </div>
+    <div class="text-center py-12 px-6">
+      <p class="font-display font-black text-5xl text-white leading-none">5</p>
+      <p class="font-heading font-extrabold text-xs tracking-widest uppercase text-white/65 mt-2">Catégories d'activités</p>
+    </div>
+    <div class="text-center py-12 px-6">
+      <p class="font-display font-black text-5xl text-plight leading-none">3</p>
+      <p class="font-heading font-extrabold text-xs tracking-widest uppercase text-white/65 mt-2">Plateformes digitales</p>
+    </div>
+    <div class="text-center py-12 px-6">
+      <p class="font-display font-black text-5xl text-white leading-none">∞</p>
+      <p class="font-heading font-extrabold text-xs tracking-widest uppercase text-white/65 mt-2">Potentiel de croissance</p>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ À PROPOS ══════════ -->
+<section id="apropos" class="py-28 bg-white">
+  <div class="max-w-7xl mx-auto px-8 lg:px-16 grid lg:grid-cols-2 gap-20 items-center">
+
+    <!-- Cartes visuelles -->
+    <div class="relative h-96">
+      <div class="absolute top-0 right-0 w-4/5 h-56 bg-primary/7 border border-primary/20 p-8 card-hover">
+        <span class="text-4xl">🌍</span>
+        <h4 class="font-heading font-extrabold text-xs tracking-widest uppercase text-primary mt-4 mb-2">Une rue au cœur d'Abobo</h4>
+        <p class="text-sm text-gray-500 leading-relaxed">Dynamique, vivante, diverse. La rue Koné Tiemoman concentre une multitude d'activités qui méritent d'être connues au-delà du quartier.</p>
+      </div>
+      <div class="absolute bottom-0 left-0 w-3/5 h-48 bg-ggreen/8 border border-ggreen/20 p-8 card-hover">
+        <span class="text-4xl">📱</span>
+        <h4 class="font-heading font-extrabold text-xs tracking-widest uppercase text-ggreen mt-4 mb-2">Zéro présence digitale</h4>
+        <p class="text-sm text-gray-500 leading-relaxed">La majorité des commerçants n'ont ni page web, ni profil en ligne. Ce projet change la donne.</p>
+      </div>
+    </div>
+
+    <!-- Texte -->
+    <div>
+      <p class="eyebrow mb-2">À propos du projet</p>
+      <h2 class="font-display font-black text-gray-900 leading-tight"
+          style="font-size:clamp(1.9rem,3vw,3rem)">
+        Mettre le quartier<br>
+        <span class="text-primary">sur la carte digitale</span>
+      </h2>
+      <div class="w-14 h-1 bg-gradient-to-r from-primary to-ggreen mt-5 mb-8"></div>
+      <p class="text-gray-500 leading-relaxed mb-4 text-sm">La Rue Professeur Koné Tiemoman est l'une des artères les plus animées d'Abobo. Restaurants, maquis, boutiques, centres de formation, salons de coiffure — la diversité économique y est remarquable.</p>
+      <p class="text-gray-500 leading-relaxed mb-4 text-sm">Pourtant, aucun de ces commerces n'est visible sur Google Maps, Instagram ou Facebook. En 2026, c'est une opportunité manquée chaque jour.</p>
+      <p class="text-gray-500 leading-relaxed text-sm">Ce projet vise à donner une identité, une voix et une visibilité à tous ces acteurs économiques locaux.</p>
+      <blockquote class="mt-8 border-l-4 border-primary bg-primary/5 pl-5 pr-4 py-4 italic font-light text-gray-600 text-sm leading-relaxed">
+        « Quand tu n'es pas en ligne, tu n'existes pas pour la moitié de tes futurs clients. »
+      </blockquote>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ COMMERCES ══════════ -->
+<section id="commerces" class="py-24 bg-gray-50 pattern-bg">
+  <div class="max-w-7xl mx-auto px-8 lg:px-16">
+    <div class="mb-14">
+      <p class="eyebrow mb-2">L'écosystème de la rue</p>
+      <h2 class="font-display font-black text-gray-900" style="font-size:clamp(1.9rem,3vw,3rem)">
+        Nos <span class="text-ggreen">commerces</span>
+      </h2>
+      <div class="w-14 h-1 bg-gradient-to-r from-primary to-ggreen mt-4"></div>
+    </div>
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
+
+      <div class="bg-white border border-gray-100 p-8 card-hover group">
+        <span class="text-4xl block mb-5">🍽️</span>
+        <p class="font-heading font-extrabold text-xs tracking-widest uppercase text-primary mb-2">Restauration</p>
+        <h3 class="font-display font-bold text-xl text-gray-900 mb-3">Restaurants &amp; Maquis</h3>
+        <p class="text-sm text-gray-500 leading-relaxed">Cuisine ivoirienne, grillades, sauce graine, attiéké poisson — une offre gastronomique authentique à partager.</p>
+        <span class="inline-block mt-5 font-heading font-extrabold text-xs tracking-wider uppercase text-primary border border-primary/30 px-3 py-1 group-hover:bg-primary group-hover:text-white transition-colors">Découvrir →</span>
+      </div>
+
+      <div class="bg-white border border-gray-100 p-8 card-hover group">
+        <span class="text-4xl block mb-5">👗</span>
+        <p class="font-heading font-extrabold text-xs tracking-widest uppercase text-ggreen mb-2">Mode &amp; Beauté</p>
+        <h3 class="font-display font-bold text-xl text-gray-900 mb-3">Boutiques &amp; Salons</h3>
+        <p class="text-sm text-gray-500 leading-relaxed">Tenues traditionnelles, prêt-à-porter, salons de coiffure. Le style africain contemporain à portée de main.</p>
+        <span class="inline-block mt-5 font-heading font-extrabold text-xs tracking-wider uppercase text-ggreen border border-ggreen/30 px-3 py-1 group-hover:bg-ggreen group-hover:text-white transition-colors">Découvrir →</span>
+      </div>
+
+      <div class="bg-white border border-gray-100 p-8 card-hover group">
+        <span class="text-4xl block mb-5">⚙️</span>
+        <p class="font-heading font-extrabold text-xs tracking-widest uppercase text-primary mb-2">Services</p>
+        <h3 class="font-display font-bold text-xl text-gray-900 mb-3">Services du quotidien</h3>
+        <p class="text-sm text-gray-500 leading-relaxed">Photocopie, couture, réparation, informatique, services financiers. Tout ce dont vous avez besoin.</p>
+        <span class="inline-block mt-5 font-heading font-extrabold text-xs tracking-wider uppercase text-primary border border-primary/30 px-3 py-1 group-hover:bg-primary group-hover:text-white transition-colors">Découvrir →</span>
+      </div>
+
+      <div class="bg-white border border-gray-100 p-8 card-hover group">
+        <span class="text-4xl block mb-5">📚</span>
+        <p class="font-heading font-extrabold text-xs tracking-widest uppercase text-ggreen mb-2">Éducation</p>
+        <h3 class="font-display font-bold text-xl text-gray-900 mb-3">Centres de formation</h3>
+        <p class="text-sm text-gray-500 leading-relaxed">Formations professionnelles, cours particuliers, espaces d'apprentissage pour les jeunes du quartier.</p>
+        <span class="inline-block mt-5 font-heading font-extrabold text-xs tracking-wider uppercase text-ggreen border border-ggreen/30 px-3 py-1 group-hover:bg-ggreen group-hover:text-white transition-colors">Découvrir →</span>
+      </div>
+
+      <div class="bg-white border border-gray-100 p-8 card-hover group">
+        <span class="text-4xl block mb-5">🛒</span>
+        <p class="font-heading font-extrabold text-xs tracking-widest uppercase text-primary mb-2">Commerce général</p>
+        <h3 class="font-display font-bold text-xl text-gray-900 mb-3">Épiceries &amp; Marchands</h3>
+        <p class="text-sm text-gray-500 leading-relaxed">Produits alimentaires, quincaillerie, matériaux de construction. Le commerce de proximité dans toute sa richesse.</p>
+        <span class="inline-block mt-5 font-heading font-extrabold text-xs tracking-wider uppercase text-primary border border-primary/30 px-3 py-1 group-hover:bg-primary group-hover:text-white transition-colors">Découvrir →</span>
+      </div>
+
+      <div class="bg-white border border-gray-100 p-8 card-hover group">
+        <span class="text-4xl block mb-5">🎨</span>
+        <p class="font-heading font-extrabold text-xs tracking-widest uppercase text-ggreen mb-2">Artisanat</p>
+        <h3 class="font-display font-bold text-xl text-gray-900 mb-3">Artisans &amp; Créateurs</h3>
+        <p class="text-sm text-gray-500 leading-relaxed">Menuiserie, soudure, peinture, fabrication locale. Le savoir-faire artisanal ivoirien, visible et valorisé.</p>
+        <span class="inline-block mt-5 font-heading font-extrabold text-xs tracking-wider uppercase text-ggreen border border-ggreen/30 px-3 py-1 group-hover:bg-ggreen group-hover:text-white transition-colors">Découvrir →</span>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ STRATÉGIE ══════════ -->
+<section id="strategie" class="py-28 bg-white">
+  <div class="max-w-4xl mx-auto px-8 lg:px-16">
+    <div class="text-center mb-16">
+      <p class="eyebrow mb-2">Notre plan d'action</p>
+      <h2 class="font-display font-black text-gray-900" style="font-size:clamp(1.9rem,3vw,3rem)">
+        Stratégie de <span class="text-primary">communication digitale</span>
+      </h2>
+      <div class="w-14 h-1 bg-gradient-to-r from-primary to-ggreen mt-5 mx-auto"></div>
+    </div>
+
+    <div class="divide-y divide-gray-100">
+
+      <div class="py-10 grid grid-cols-[68px_1fr] gap-8 items-start">
+        <p class="timeline-num">01</p>
+        <div>
+          <h3 class="font-heading font-extrabold text-xs tracking-wider uppercase text-ggreen mb-3">Diagnostic &amp; Cartographie</h3>
+          <p class="text-gray-500 text-sm leading-relaxed">Enquête terrain auprès de tous les commerçants. Recensement complet, localisation GPS et analyse de la présence digitale existante.</p>
+          <div class="flex flex-wrap gap-2 mt-4">
+            <span class="pill-g">Enquête terrain</span>
+            <span class="pill-g">Google Maps</span>
+            <span class="pill-g">Audit digital</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="py-10 grid grid-cols-[68px_1fr] gap-8 items-start">
+        <p class="timeline-num">02</p>
+        <div>
+          <h3 class="font-heading font-extrabold text-xs tracking-wider uppercase text-primary mb-3">Identité digitale collective</h3>
+          <p class="text-gray-500 text-sm leading-relaxed">Création d'un slogan, d'un logo, d'une charte graphique et de hashtags officiels pour unifier la communication de toute la rue.</p>
+          <div class="flex flex-wrap gap-2 mt-4">
+            <span class="pill-o">Logo &amp; Charte</span>
+            <span class="pill-o">Slogan</span>
+            <span class="pill-o">#Hashtags</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="py-10 grid grid-cols-[68px_1fr] gap-8 items-start">
+        <p class="timeline-num">03</p>
+        <div>
+          <h3 class="font-heading font-extrabold text-xs tracking-wider uppercase text-ggreen mb-3">Création de contenu multimédia</h3>
+          <p class="text-gray-500 text-sm leading-relaxed">Mini-reportages vidéo, portraits d'entrepreneurs, découverte gastronomique, bons plans. Du contenu authentique qui raconte l'histoire de la rue.</p>
+          <div class="flex flex-wrap gap-2 mt-4">
+            <span class="pill-g">Vidéos</span>
+            <span class="pill-g">Photos</span>
+            <span class="pill-g">Storytelling</span>
+            <span class="pill-g">Interviews</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="py-10 grid grid-cols-[68px_1fr] gap-8 items-start">
+        <p class="timeline-num">04</p>
+        <div>
+          <h3 class="font-heading font-extrabold text-xs tracking-wider uppercase text-primary mb-3">Diffusion sur les réseaux sociaux</h3>
+          <p class="text-gray-500 text-sm leading-relaxed">Animation des pages Facebook, Instagram et TikTok. Campagne "Découvrons la Rue Koné Tiemoman" avec un calendrier éditorial structuré.</p>
+          <div class="flex flex-wrap gap-2 mt-4">
+            <span class="pill-o">Facebook</span>
+            <span class="pill-o">Instagram</span>
+            <span class="pill-o">TikTok</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="py-10 grid grid-cols-[68px_1fr] gap-8 items-start">
+        <p class="timeline-num">05</p>
+        <div>
+          <h3 class="font-heading font-extrabold text-xs tracking-wider uppercase text-ggreen mb-3">Analyse des performances</h3>
+          <p class="text-gray-500 text-sm leading-relaxed">Suivi des indicateurs clés : engagement, portée, abonnés, clics. Rapports réguliers pour ajuster et optimiser la stratégie.</p>
+          <div class="flex flex-wrap gap-2 mt-4">
+            <span class="pill-g">KPI</span>
+            <span class="pill-g">Analytics</span>
+            <span class="pill-g">Rapports</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ RÉSEAUX ══════════ -->
+<section id="reseaux" class="py-24 bg-gray-50 pattern-bg">
+  <div class="max-w-7xl mx-auto px-8 lg:px-16">
+    <div class="mb-14">
+      <p class="eyebrow mb-2">Notre présence digitale</p>
+      <h2 class="font-display font-black text-gray-900" style="font-size:clamp(1.9rem,3vw,3rem)">
+        Rejoignez-nous sur <span class="text-ggreen">les réseaux</span>
+      </h2>
+      <div class="w-14 h-1 bg-gradient-to-r from-primary to-ggreen mt-4"></div>
+    </div>
+    <div class="grid md:grid-cols-3 gap-6">
+      <div class="bg-white p-10 text-center card-hover border-t-4 border-blue-600">
+        <span class="text-5xl block mb-5">📘</span>
+        <h3 class="font-display font-bold text-2xl text-gray-900 mb-1">Facebook</h3>
+        <p class="font-heading font-extrabold text-xs tracking-widest uppercase text-primary mb-5">@RueKoneTiemoman</p>
+        <p class="text-sm text-gray-500 leading-relaxed">Actualités, promotions, événements du quartier et portraits d'entrepreneurs locaux.</p>
+      </div>
+      <div class="bg-white p-10 text-center card-hover border-t-4 border-pink-500">
+        <span class="text-5xl block mb-5">📸</span>
+        <h3 class="font-display font-bold text-2xl text-gray-900 mb-1">Instagram</h3>
+        <p class="font-heading font-extrabold text-xs tracking-widest uppercase text-primary mb-5">@rue_kone_tiemoman</p>
+        <p class="text-sm text-gray-500 leading-relaxed">Les plus belles photos de la rue, les plats du jour, la mode locale et les moments de vie authentiques.</p>
+      </div>
+      <div class="bg-white p-10 text-center card-hover border-t-4 border-gray-900">
+        <span class="text-5xl block mb-5">🎵</span>
+        <h3 class="font-display font-bold text-2xl text-gray-900 mb-1">TikTok</h3>
+        <p class="font-heading font-extrabold text-xs tracking-widest uppercase text-primary mb-5">@KoneTiemomanBiz</p>
+        <p class="text-sm text-gray-500 leading-relaxed">Street marketing, vidéos immersives, défis communautaires et contenu viral.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ HASHTAGS ══════════ -->
+<section class="py-20 bg-white text-center">
+  <div class="max-w-4xl mx-auto px-8">
+    <p class="eyebrow mb-2">Notre identité en ligne</p>
+    <h2 class="font-display font-black text-gray-900" style="font-size:clamp(1.9rem,3vw,3rem)">
+      Les hashtags <span class="text-primary">officiels</span>
+    </h2>
+    <div class="w-14 h-1 bg-gradient-to-r from-primary to-ggreen mt-5 mx-auto mb-12"></div>
+    <div class="flex flex-wrap justify-center gap-3">
+      <span class="hashtag border-primary text-primary text-base">#RueKoneTiemoman</span>
+      <span class="hashtag border-ggreen text-ggreen text-sm">#KoneTiemomanBusiness</span>
+      <span class="hashtag border-primary text-primary text-base">#AboboShops</span>
+      <span class="hashtag border-ggreen text-ggreen text-sm">#CommercesAbobo</span>
+      <span class="hashtag border-primary text-primary text-base">#AbidjanBusiness</span>
+      <span class="hashtag border-ggreen text-ggreen text-sm">#MaquisAbidjan</span>
+      <span class="hashtag border-primary text-primary text-sm">#ArtisansCIV</span>
+      <span class="hashtag border-ggreen text-ggreen text-base">#DigitalAbobo</span>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ CONTACT ══════════ -->
+<section id="contact" class="py-28 bg-ggreen relative overflow-hidden">
+  <div class="absolute inset-0 pattern-bg opacity-20 pointer-events-none"></div>
+  <div class="absolute -top-24 -right-24 w-96 h-96 rounded-full bg-primary/15 blur-3xl pointer-events-none"></div>
+
+  <div class="relative z-10 max-w-7xl mx-auto px-8 lg:px-16 text-center">
+    <p class="font-heading font-extrabold text-xs tracking-widest uppercase text-plight mb-3">Nous trouver</p>
+    <h2 class="font-display font-black text-white leading-tight" style="font-size:clamp(2rem,4vw,3.5rem)">
+      Venez nous rendre visite
+    </h2>
+    <div class="w-14 h-1 bg-primary mx-auto mt-5 mb-8"></div>
+    <p class="text-white/70 text-lg font-light max-w-lg mx-auto mb-12">
+      La Rue Professeur Koné Tiemoman vous attend. Clients, partenaires ou curieux — vous êtes les bienvenus.
+    </p>
+    <a href="#commerces"
+       class="inline-block font-heading font-extrabold text-sm tracking-wider uppercase bg-primary text-white px-10 py-4 hover:bg-plight transition-all hover:-translate-y-1 shadow-xl shadow-black/20">
+      Voir les commerces
+    </a>
+
+    <div class="grid md:grid-cols-3 gap-5 mt-16 text-left">
+      <div class="bg-white/8 border border-white/15 p-8 hover:border-primary/50 transition-colors">
+        <span class="text-3xl block mb-4">📍</span>
+        <p class="font-heading font-extrabold text-xs tracking-widest uppercase text-plight mb-3">Adresse</p>
+        <p class="text-white/75 text-sm leading-relaxed">Rue Prof. Koné Tiemoman<br>Abobo, Abidjan — Côte d'Ivoire</p>
+      </div>
+      <div class="bg-white/8 border border-white/15 p-8 hover:border-primary/50 transition-colors">
+        <span class="text-3xl block mb-4">🕗</span>
+        <p class="font-heading font-extrabold text-xs tracking-widest uppercase text-plight mb-3">Horaires</p>
+        <p class="text-white/75 text-sm leading-relaxed">Lun–Ven : 7h – 22h<br>Sam : 8h – 21h · Dim : 9h – 18h</p>
+      </div>
+      <div class="bg-white/8 border border-white/15 p-8 hover:border-primary/50 transition-colors">
+        <span class="text-3xl block mb-4">📲</span>
+        <p class="font-heading font-extrabold text-xs tracking-widest uppercase text-plight mb-3">Réseaux sociaux</p>
+        <p class="text-white/75 text-sm leading-relaxed">Facebook · Instagram · TikTok<br>@RueKoneTiemoman</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ FOOTER ══════════ -->
+<footer class="bg-gray-900 py-7 px-8 lg:px-16">
+  <div class="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-4">
+    <p class="font-display font-black text-lg">
+      <span class="text-primary">Rue</span>
+      <span class="text-white"> Koné </span>
+      <span class="text-glight">Tiemoman</span>
+    </p>
+    <p class="font-heading text-xs tracking-widest uppercase text-gray-500">© 2026 — Stratégie digitale étudiante</p>
+    <p class="font-heading text-xs font-extrabold tracking-wider text-glight">#RueKoneTiemoman · Abobo · Abidjan</p>
+  </div>
+</footer>
+
+</body>
+</html>
